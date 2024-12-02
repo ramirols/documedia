@@ -1,0 +1,48 @@
+
+.navigation {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 100;
+}
+
+.navigation .nav-link {
+    padding: 10px 20px;
+    color: var(--text-color);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navigation .nav-link.active {
+    color: var(--accent-color);
+    font-weight: bold;
+}
+
+.video-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    position: relative;
+}
+
+.video-section video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h2 {
+    position: absolute;
+    font-size: 3rem;
+    color: var(--text-color);
+}
+
+.footer-progress {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}

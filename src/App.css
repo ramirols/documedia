@@ -1,0 +1,6 @@
+/* Tipografías */
+@import './styles/variables.css';
+
+/* Home */
+@import './styles/hero.css';
+@import './styles/sections.css';
