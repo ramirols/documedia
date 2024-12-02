@@ -24,7 +24,7 @@ const Hero = () => {
 
         {/* Título */}
         <h1 className="hero-title">
-          Violador <span>en MASA</span>
+          Mujeres <span>en VENTA</span>
         </h1>
 
         {/* Subtítulo */}
