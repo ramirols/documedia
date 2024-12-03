@@ -65,7 +65,7 @@
 }
 
 .scroll-container {
-    transition: transform 0.3s ease;
+    transition: transform .2s ease;
 }
 
 .scroll-container:hover {

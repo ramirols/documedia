@@ -50,7 +50,7 @@ const Hero = () => {
         <ScrollLink
           to="section1"
           smooth={true}
-          duration={1000}
+          duration={600}
           className="hero-scroll-btn"
         >
           <motion.div
