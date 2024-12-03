@@ -17,14 +17,14 @@ const Hero = () => {
       >
         {/* Premios */}
         <img
-          src="../assets/reineld.jpg"
+          src="/assets/images/premios.png"
           alt="Premios"
           className="hero-awards"
         />
 
         {/* Título */}
         <h1 className="hero-title">
-          Mujeres <span>en VENTA</span>
+          Guardianes de la playa: <span>SALVANDO LA VIDA MARINA</span>
         </h1>
 
         {/* Subtítulo */}
@@ -48,7 +48,7 @@ const Hero = () => {
 
         {/* Botón de scroll */}
         <ScrollLink
-          to="next-section"
+          to="section1"
           smooth={true}
           duration={1000}
           className="hero-scroll-btn"
