@@ -1,13 +1,11 @@
 import VideoSection from "../components/VideoSection";
+import Seccion2 from "../components/Seccion2";
 
 function Home() {
     return (
         <div>
-            <VideoSection id="section1" videoSrc="/assets/videos/video1.mp4" title="Sección 1" />
-            <VideoSection id="section2" videoSrc="/assets/videos/video2.mp4" title="Sección 2" />
-            <VideoSection id="section3" videoSrc="/assets/videos/video3.mp4" title="Sección 3" />
-            <VideoSection id="section4" videoSrc="/assets/videos/video4.mp4" title="Sección 4" />
-            <VideoSection id="section5" videoSrc="/assets/videos/video5.mp4" title="Sección 5" />
+            <VideoSection id="section1" videoSrc="/public/seccion1.mp4" title="Sección 1" />
+            <Seccion2 />
         </div>
     );
 }

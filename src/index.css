@@ -2,9 +2,12 @@ div#root {
   width: 100%;
 }
 
-*, *::before, *::after {
-   font-family: 'Poppins', sans-serif;
-   box-sizing: border-box;
+*,
+*::before,
+*::after {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  /*font-family: 'Kalam', cursive;*/
 }
 
 .app {
@@ -41,4 +44,23 @@ button {
 
 label {
   text-align: start;
+}
+
+/* Responsive design */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .app {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 980px) {
+  .hero-title {
+    font-size: 2rem !important;
+  }
+
+  .hero-icons {
+    width: 100px !important;
+  }
 }

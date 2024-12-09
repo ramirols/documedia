@@ -1,6 +1,10 @@
 /* Tipografías */
+@import '@fontsource/kalam';
 @import './styles/variables.css';
 
 /* Home */
 @import './styles/hero.css';
 @import './styles/sections.css';
+
+/* Secciones */
+@import './styles/video-section.css';

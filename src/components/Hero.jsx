@@ -2,11 +2,22 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Link as ScrollLink } from "react-scroll";
 
+/* Importar iconos */
+import onuIcon from "../assets/onu.png";
+
 const Hero = () => {
   return (
     <div className="hero-container">
-      {/* Imagen de fondo */}
-      <div className="hero-bg"></div>
+      {/* Video de fondo */}
+      <video
+        className="hero-bg"
+        autoPlay
+        loop
+        muted
+        playsInline
+      >
+        <source src="../public/hero.mp4" type="video/mp4" />
+      </video>
 
       {/* Contenido */}
       <motion.div
@@ -17,32 +28,30 @@ const Hero = () => {
       >
         {/* Premios */}
         <img
-          src="/assets/images/premios.png"
-          alt="Premios"
-          className="hero-awards"
+          src={onuIcon}
+          alt="ONU"
+          className="hero-icons"
         />
 
         {/* Título */}
         <h1 className="hero-title">
-          Guardianes de la playa: <span>SALVANDO LA VIDA MARINA</span>
+          Guardianes de la playa: <span>Salvando la vida submarina</span>
         </h1>
 
         {/* Subtítulo */}
         <p className="hero-subtitle">
-          Trata de personas con fines de explotación sexual en Argentina
+          Objetivo 14: vida submarina
         </p>
 
         {/* Declaraciones */}
         <div className="hero-declarations">
           <p>
-            Declarado de interés municipal por el Honorable Concejo Municipal
-            de Rosario Decreto Nº 42492<br />
-            21/11/2014
-          </p>
-          <p>
-            Declaración de interés. Honorable Cámara de Diputados de la Nación.
-            Resolución Nº 5.486-D-2015.<br />
-            CABA, 24/11/2015.
+            Esta docuweb nace de la urgente necesidad de proteger nuestro
+            planeta y de contribuir activamente a un desarrollo sostenible.
+            Inspirada en la importancia de crear conciencia sobre los desafíos
+            ambientales que enfrentamos en el Perú con el propósito es generar
+            un impacto positivo, promoviendo acciones que beneficien tanto a la
+            humanidad como al medio ambiente
           </p>
         </div>
 
@@ -61,7 +70,7 @@ const Hero = () => {
             SCROLL PARA COMENZAR
           </motion.div>
         </ScrollLink>
-      </motion.div>.
+      </motion.div>
     </div>
   );
 };

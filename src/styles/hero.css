@@ -14,8 +14,10 @@
     left: 0;
     width: 100%;
     height: 100%;
-    /*background: url("AGREGAR IMAGEN PARA EL HERO") center/cover no-repeat;*/
+    /*background: url("AGREGAR RUTA PARA IMAGENES") center/cover no-repeat;*/
     filter: brightness(0.7);
+    z-index: -1;
+    object-fit: cover;
 }
 
 .hero-content {
@@ -25,31 +27,37 @@
     color: black
 }
 
-.hero-awards {
-    width: 80%;
+.hero-icons {
+    height: 5rem;
+    width: 13%;
     margin: 0 auto 20px;
 }
 
 .hero-title {
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: bold;
+    color: white;
+    font-family: 'Kalam', cursive;
+    text-transform: uppercase;
 }
 
 .hero-title span {
-    color: #ff0000;
-    padding: 0 5px;
-    background: #fff;
-    color: #000;
+    font-family: 'kalam', cursive;
+    text-transform: none;
 }
 
 .hero-subtitle {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin: 20px 0;
+    color: yellow;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .hero-declarations {
     margin: 20px 0;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
+    color: white;
 }
 
 .hero-scroll-btn {
