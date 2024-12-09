@@ -1,0 +1,46 @@
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column; /* Organiza contenido verticalmente */
+    justify-content: space-between; /* Espacia imagen y título */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: auto; /* Ajusta la altura al contenido */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-link {
+    display: flex;
+    flex-direction: column; /* Organiza contenido dentro del link */
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-image {
+    width: 100%;
+    height: 200px; /* Usa un porcentaje dinámico para distribuir espacio */
+    object-fit: cover; 
+}
+
+.card-title {
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background 0.3s ease;
+}
+
+.card:hover .card-title {
+    background: rgba(0, 0, 0, 0.9);
+}

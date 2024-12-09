@@ -1,6 +1,7 @@
 /* Componentes */
 import FooterProgress from "./components/FooterProgress";
 import Hero from "./components/Hero";
+import ChatMenu from "./components/ChatMenu";
 
 /* Vistas */
 import Home from "./view/Home";
@@ -14,6 +15,7 @@ function App() {
       <Hero />
       <Home />
       <FooterProgress />
+      <ChatMenu />
     </div>
   );
 }

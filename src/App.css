@@ -8,3 +8,10 @@
 
 /* Secciones */
 @import './styles/video-section.css';
+@import './styles/seccion2.css';
+@import './styles/seccion6-grid.css';
+/* Cards */
+@import './styles/card-item.css';
+
+/* Chat */
+@import './styles/chat-menu.css';

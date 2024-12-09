@@ -34,12 +34,6 @@
     object-fit: cover;
 }
 
-h2 {
-    position: absolute;
-    font-size: 3rem;
-    color: var(--text-color);
-}
-
 .footer-progress {
     position: fixed;
     bottom: 0;

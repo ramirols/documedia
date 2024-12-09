@@ -63,4 +63,8 @@ label {
   .hero-icons {
     width: 100px !important;
   }
+
+  .section-grid {
+    grid-template-columns: 1fr !important;
+  }
 }
